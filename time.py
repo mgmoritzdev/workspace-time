@@ -12,9 +12,9 @@ tk = TkTime()
 tk.setup()
 
 while not tk.stop:
-	sleep(1)
-	#print wt.get_display_text()
-	tk.update(wt.get_display_text())
+    sleep(1)
+    # print wt.get_display_text()
+    tk.update(wt.get_display_text())
 
 wt.save_to_file()
 tk.destroy()
